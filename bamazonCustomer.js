@@ -1,5 +1,7 @@
 let mysql = require("mysql"); 
 
+
+
 //varibles required to oconnect to the database 
 let connection = mysql.createConnection({
    
