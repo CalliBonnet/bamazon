@@ -16,6 +16,24 @@ connection.connect(function (error) {
         throw error; 
     }
 
-
     console.log("success! Your database is connected")
+
+    getAllProducts(); 
 }); 
+
+//this is gettinng all of the data from the databade and will display it in your node 
+function getAllProducts() {
+    connection.query("SELECT * FROM products; ", function(error, results){
+        if(error) {
+            throw error; 
+        }
+
+        console.log(results); 
+
+        connection.end(); 
+    });
+}; 
+
+
+
+
