@@ -16,5 +16,5 @@ First, lets take a look at the database that was created for Bamazon.
 AWESOME!! Now here is where thhings get a little gitchy... (and it could be because our engineers were not able to complete the project) 
 
 
-
+![Required Items](ReadMe-Images/node-img.png)
 
